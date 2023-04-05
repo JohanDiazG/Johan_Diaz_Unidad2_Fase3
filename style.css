@@ -26,7 +26,7 @@ nav {
 
 aside {
   grid-area: C;
-  border: solid black 1px;
+  
 
  
 }
@@ -34,9 +34,10 @@ main {
   padding: 10px 40px;
   margin: 6px;
   grid-area: D;
-  border: solid black 1px;
   height: 600px;
   width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 footer {
   padding: 10px;
@@ -73,4 +74,24 @@ footer {
   margin: 4px;
   display: block;
   text-align: center;
+}
+.FotoPerfil{
+  float: left;
+  width: 250px;
+  height:250px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.ImagenAudio{
+  
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
