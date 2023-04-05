@@ -32,6 +32,7 @@
   }
   footer {
       grid-area: E;
+      background-color: #000000;
   }
   
   .menu_horizontal{
