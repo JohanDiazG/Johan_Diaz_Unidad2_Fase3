@@ -31,9 +31,13 @@
     grid-area: D;
   }
   footer {
+      padding: 10px;
       grid-area: E;
       background-color: #000000;
+      color: #F6F1F1;
+      text-align: center;
   }
+
   
   .menu_horizontal{
       display: flex;
