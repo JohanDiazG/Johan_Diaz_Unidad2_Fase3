@@ -8,7 +8,7 @@ function procesarRespuestas(){
     for (let i = 1; i <= total; i++){
         if (myForm["r" + i].value == null ||
            myForm["r" + i].value == '') {   
-            alert ('porgavor responder todas las preguntas');
+            alert ('por favor responder todas las preguntas');
             return false;
         } else {
             if (myForm["r" + i].value === respuestasCorrectas[i - 1])
